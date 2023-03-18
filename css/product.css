@@ -1,5 +1,5 @@
 body{
-    background-color:whitesmoke;
+    background-color:#eee;
     padding: 0;
 }
 div.col-sm-6,.row,nav {
@@ -32,10 +32,37 @@ div.col-sm-6,.row,nav {
     padding: 5%;
 }
 img{
-    width: 100px;
-    height: 90px;
+    width: 90px;
+    height: 80px;
 }
 div.logo{
     display: flex;
     margin-top: 15px;
+}
+h5{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+div.card{
+    border-radius: 20px;
+    margin: 10px;
+    background-color:rgb(255, 255, 255);
+}
+i,.fa .fa-bookmark-o{
+    margin-left: 20px;
+}
+.bmw{
+    width: 150px;
+    height: 130px;
+}
+div.card.buttom{
+    background-color: blue;
+    display: flex;
+}
+.fa .fa-user
+{
+    margin: 10px;
+    padding: 5px;
 }
