@@ -1,3 +1,41 @@
 body{
-    background-color: aqua;
+    background-color:whitesmoke;
+    padding: 0;
+}
+div.col-sm-6,.row,nav {
+    display: flex;
+}
+
+.fa{
+    margin-top: 14%;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .fa ,.fa-search{
+    display: flex;
+}
+.search,input{
+    border-radius:20PX;
+    width:90%;
+    height: 30px;
+    font-weight: bolder;
+    font-family:monospace; 
+    font-size: large;
+    padding: 5%;
+}
+img{
+    width: 100px;
+    height: 90px;
+}
+div.logo{
+    display: flex;
+    margin-top: 15px;
 }
