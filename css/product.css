@@ -66,3 +66,7 @@ div.card.buttom{
     margin: 10px;
     padding: 5px;
 }
+a:hover{
+    border-radius: 60px solid black;
+    
+}
